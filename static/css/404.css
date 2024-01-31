@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@400;600&display=swap');
+
+@import "header.css";
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	color: #424874;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container__title {
+	margin: 0;
+	margin-bottom: 30px;
+	text-wrap: balance;
+	text-align: center
+}
+
+@media screen and (min-width: 1024px) {
+	.container {
+		max-width: 800px;
+	}
+}

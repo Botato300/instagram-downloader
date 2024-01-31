@@ -1,0 +1,15 @@
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	color: #424874;
+	box-shadow: 0 0 5px 1px #cacaca;
+	font-family: 'Handlee', cursive;
+}
+
+.header__logo {
+	max-width: 2em;
+	max-height: 2em;
+	color: #424874;
+}
