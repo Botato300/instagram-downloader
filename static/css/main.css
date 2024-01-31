@@ -69,6 +69,11 @@ body {
 	background-color: #cbc3ee;
 }
 
+.form__btn:disabled {
+	background-color: #8d8d8d;
+	color: #dadada;
+}
+
 .downloadStatus {
 	display: none;
 	text-align: center;
