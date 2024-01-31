@@ -1,0 +1,1 @@
+Se requiere que el directorio 'storage' para almacenar los videos.
