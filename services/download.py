@@ -10,8 +10,7 @@ def download_video(url):
 	fileName = generateRandomString()
 
 	ydlp_config = {
-		"outtmpl": f"{output_directory}/{fileName}.%(ext)s",
-		"cookiefile": "cookie.txt"
+		"outtmpl": f"{output_directory}/{fileName}.%(ext)s"
 	}
 
 	with YoutubeDL(ydlp_config) as ydl:
