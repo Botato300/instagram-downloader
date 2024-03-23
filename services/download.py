@@ -16,7 +16,7 @@ def download_video(url):
 	with YoutubeDL(ydlp_config) as ydl:
 		info = ydl.extract_info(url, download=True)
 		fileName = f"{fileName}.{info['ext']}"
-		return f"/api/get_video/{fileName}"
+		return f"/api/get-video/{fileName}"
 
 def generateRandomString():
     characters = string.ascii_letters + string.digits

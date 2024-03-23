@@ -19,7 +19,7 @@ def download():
 
 	return {"downloadLink": downloadLink}
 
-@app.route("/api/get_video/<fileName>", methods=["GET"])
+@app.route("/api/get-video/<fileName>", methods=["GET"])
 def get_video(fileName):
 	return send_file(f"storage/{fileName}", as_attachment=True)
 
